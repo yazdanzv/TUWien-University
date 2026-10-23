@@ -1,0 +1,92 @@
+# macOS
+.DS_Store
+._*
+.AppleDouble
+.LSOverride
+.Spotlight-V100/
+.Trashes/
+
+# Python environments, caches, coverage, and builds
+.venv/
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Java, Maven, and Gradle
+*.class
+*.jar
+*.war
+*.ear
+target/
+.gradle/
+out/
+
+# Node.js and frontend builds
+node_modules/
+.npm/
+.pnpm-store/
+.yarn/cache/
+.next/
+.nuxt/
+.svelte-kit/
+coverage/
+
+# IDE and editor files
+.idea/
+.vscode/
+*.iml
+*.swp
+*.swo
+*~
+
+# Environment files, credentials, and private keys
+.env
+.env.*
+!.env.example
+!.env.template
+credentials*.json
+service-account*.json
+*.pem
+*.key
+*.p12
+*.pfx
+.npmrc
+.pypirc
+
+# Temporary files and logs
+.cache/
+.tmp/
+tmp/
+temp/
+*.tmp
+*.temp
+*.log
+
+# Generated data, experiment runs, and model artifacts
+**/data/generated/
+**/data/processed/
+**/datasets/generated/
+.dvc/cache/
+mlruns/
+wandb/
+checkpoints/
+*.ckpt
+*.joblib
+*.pkl
+*.pickle
+*.h5
+*.hdf5
