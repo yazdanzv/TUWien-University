@@ -61,8 +61,10 @@ Do not invent undocumented code meanings, currency units, or observation times.
 
 ## Notebook presentation standard
 
-Each notebook has six short sections: setup, official data loading, attribute
-types, missing values, selected distributions, and preprocessing implications.
+Each notebook has five short sections: setup, official data loading, attribute
+types, missing values, and selected distributions. MembershipWoes includes an
+end-date check within the analysis. Repeated final modelling advice is removed;
+the report retains the required discussion of preprocessing.
 Source references appear at the end. MembershipWoes has eleven code cells and
 five figures; Dermatology has eight code cells and three figures. Repeated validation blocks, full category-code dumps,
 manual Dermatology column definitions, and overlapping explanations are removed.
