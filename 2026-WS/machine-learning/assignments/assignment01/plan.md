@@ -1,6 +1,7 @@
 # Exercise 0 implementation plan
 
-Updated: 24 October 2026. Simplified notebooks implemented and executed; report verified.
+Updated: 25 October 2026. Notebook explanations and report wording simplified;
+code reviewed for readability while retaining the data checks and all eight figures.
 
 ## Agreed result
 
@@ -81,8 +82,11 @@ view; disclose any plotting transformation or omission of unavailable values.
 **Objective:** Establish the minimal structure and a consistent notebook style.
 
 **Tools:** Python 3.12, pandas, NumPy, Matplotlib, liac-arff, Jupyter/ipykernel;
-nbformat and nbclient for authoring and execution. State package versions in the setup command and record NumPy/pandas versions
-in notebook output. No dedicated notebook skill is exposed in this session.
+nbformat and nbclient for authoring and execution. Use a simple installation
+command without version pins and record NumPy/pandas versions in notebook output.
+The verification environment uses NumPy 2.3.5, pandas 2.2.3, Matplotlib 3.11.2,
+ipykernel 7.4.0, and liac-arff 2.5.0 on Python 3.12. No dedicated notebook skill
+is exposed in this session.
 
 **Outputs:** Two `.ipynb` files. Dependencies are explained in introductory
 Markdown, including a copyable installation command. No separate environment
