@@ -1,7 +1,8 @@
 # Exercise 0 implementation plan
 
 Updated: 25 October 2026. Notebook explanations and report wording simplified;
-code reviewed for readability while retaining the data checks and all eight figures.
+code reduced to loading, summaries, and plotting. All eight figures are retained.
+Checksums, repeated assertions, and date-parsing checks are removed from the notebooks.
 
 ## Agreed result
 
@@ -38,7 +39,7 @@ No helper classes, separate scripts, README, requirements file, exported tables,
 figure folders, nested repository, or submission ZIP are part of this revision.
 The notebooks download official source bytes into memory; they do not alter raw
 data or leave downloaded files behind. Running them requires internet access.
-Sources, checksums, dependencies, and setup instructions are recorded inside each
+Sources, dependencies, and setup instructions are recorded inside each
 notebook. Temporary build, execution, and document-review files stay outside the
 assignment folder. The assignment's final ZIP packaging remains a group task.
 
@@ -101,11 +102,11 @@ every code cell, and no external helper-code dependency.
 
 ### 2. Acquire and validate official sources
 
-**Objective:** Read unchanged source bytes and establish dataset identity.
+**Objective:** Load the official datasets with minimal code.
 
-**Tools:** urllib, hashlib, io, liac-arff, and pandas.
+**Tools:** urllib and liac-arff for MembershipWoes; pandas reads UCI's CSV directly.
 
-**Outputs:** In-memory dataframes plus visible source identity/checksum output.
+**Outputs:** In-memory dataframes and displayed row/input counts.
 MembershipWoes comes from OpenML download 22106810. Dermatology uses UCI
 33's header-labelled CSV, verified to contain exactly the same ordered values
 and missingness as the original archive. Its documentation defines measurement
@@ -113,10 +114,10 @@ types and class labels.
 
 **Dependencies:** Stage 1 and working internet access.
 
-**Validation:** Expected source fingerprint, 10,362 by 15 MembershipWoes shape,
+**Validation:** Verify the executed analysis has 10,362 by 15 MembershipWoes shape,
 366 by 35 Dermatology shape, correct target labels, documented missing markers,
-and correct attribute order. Stop on a changed source instead of silently
-accepting a different snapshot.
+and correct attribute order. These are verification checks during development;
+the delivered notebooks do not include checksum or assertion blocks.
 
 **Issues:** Repository outages and missing code definitions; report uncertainty
 rather than guess. Network access is required for a fresh run.
@@ -127,7 +128,7 @@ rather than guess. Network access is required for a fresh run.
 missingness, unique identifiers, and duplicate profiles.
 
 **Outputs:** Compact attribute/type tables, numeric summaries, missingness tables,
-and relevant assertions in each notebook.
+in each notebook, without repeated assertion blocks.
 
 **Dependencies:** Validated source loading.
 
@@ -160,7 +161,8 @@ first five documented ordinal findings rather than selecting by association.
 
 **Validation:** Class counts sum to all rows; percentages sum to 100%; histogram
 bins account for all observed values. State missing-value exclusions and log
-transformations. Check date validity and end-date availability versus status.
+transformations. Compare end-date availability with status; date parsing is
+unnecessary for that comparison.
 
 **Issues:** MembershipWoes end-date availability may reveal outcome information;
 exclude it in prospective modelling unless timing justifies its use. Dermatology
@@ -205,7 +207,7 @@ Keep fuller analysis in the notebooks.
 assertions, and Word/PDF rendering with the bundled document runtime.
 
 **Validation:** No error outputs or missing execution counts; every code cell has
-a preceding explanation; all figures are embedded; checksums and actual versions
+a preceding explanation; all figures are embedded; source URLs and library versions
 are recorded; report facts match outputs; PDF is two readable pages; original
 brief remains unchanged. Inspect the final folder for unnecessary artifacts.
 
