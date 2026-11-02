@@ -11,9 +11,10 @@ The current semester is Winter Semester 2026/27 (`2026-WS`).
 - Experiment Design & Experiment
 - Introduction to Semantic System
 
-Each course contains `lectures/`, `assignments/`, `projects/`, `notes/`, and
-`resources/`. Shared report templates, references, and study notes belong in
-`shared-resources/`.
+Course folders contain `lectures/`, `projects/`, `notes/`, and `resources/`, with
+`assignments/` where applicable. Information Visualization is project-only; its
+team project is in `2026-WS/information-visualization/projects/green-decoupling/`.
+Shared report templates, references, and study notes belong in `shared-resources/`.
 
 ## Working conventions
 
