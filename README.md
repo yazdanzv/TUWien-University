@@ -12,8 +12,8 @@ The current semester is Winter Semester 2026/27 (`2026-WS`).
 - Introduction to Semantic System
 
 Course folders contain `lectures/`, `projects/`, `notes/`, and `resources/`, with
-`assignments/` where applicable. Information Visualization is project-only; its
-team project is in `2026-WS/information-visualization/projects/green-decoupling/`.
+`assignments/` where applicable. The Green Decoupling team project is in
+`2026-WS/visual-data-science/projects/green-decoupling/`.
 Shared report templates, references, and study notes belong in `shared-resources/`.
 
 ## Working conventions
