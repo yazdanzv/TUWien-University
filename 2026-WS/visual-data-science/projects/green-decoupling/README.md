@@ -80,31 +80,23 @@ green-decoupling/
 ```
 
 Empty directories contain `.gitkeep` files so the scaffold can be tracked in Git.
-The project has its own public repository at
-[yazdanzv/green-decoupling](https://github.com/yazdanzv/green-decoupling) and is linked
-into the university workspace as a Git submodule. The agreed stack is Python,
+The project is tracked directly in the
+[TU Wien University repository](https://github.com/yazdanzv/TUWien-University).
+The agreed stack is Python,
 pandas, Plotly, Dash, pywebview, and PyInstaller. Generated datasets and outputs are ignored by Git; final
 submission files belong in `reports/final/`.
 
 ## Get the project
 
-Clone the standalone repository:
+Clone the university repository and enter the project directory:
 
 ```sh
-git clone https://github.com/yazdanzv/green-decoupling.git
-cd green-decoupling
+git clone https://github.com/yazdanzv/TUWien-University.git
+cd TUWien-University/2026-WS/visual-data-science/projects/green-decoupling
 ```
 
-When working from the university workspace, initialize the linked project from
-the workspace root:
-
-```sh
-git submodule update --init --recursive -- 2026-WS/visual-data-science/projects/green-decoupling
-```
-
-Commit and push project changes from inside this project directory. After pushing,
-commit the updated submodule reference in the university repository to record the
-project version used there. Development and prototype commands appear below.
+Commit and push project changes from the university repository. Development and
+prototype commands appear below.
 
 ## Dataset selection
 

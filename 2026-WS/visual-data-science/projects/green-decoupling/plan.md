@@ -1,6 +1,6 @@
 # Green Decoupling: working plan and decision log
 
-Last updated: 2026-11-04
+Last updated: 2026-11-11
 
 This file is the shared record for discussing, deciding, implementing, and
 checking each stage of the Information Visualization project. The original
@@ -20,6 +20,10 @@ The submodule resolves from the new directory. Updated 28 ignored local virtual
 environment launch/config files containing the old absolute path; `pip` resolves
 to the relocated environment. All 21 data/dashboard tests passed from the new
 location (`outputs/relocation-tests.log`).
+
+**Repository consolidation — 2026-11-11:** the standalone repository was removed
+after its files were incorporated into the public TU Wien University repository.
+The project is now tracked directly in that repository, without a submodule.
 
 ## How we work through each step
 
@@ -80,8 +84,8 @@ and record any resulting changes.
 
 ## Progress
 
-The project scaffold, original proposal copy, and public GitHub repository already
-exist. The project is linked into the university workspace as a Git submodule.
+The project scaffold and original proposal copy are tracked in the public TU Wien
+University repository.
 A minimal technical prototype has been implemented and its macOS build tested
 on the development Mac. The approved real-data preparation pipeline is now
 implemented and validated. The original OWID snapshot is read-only and unchanged.
