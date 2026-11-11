@@ -1,0 +1,12 @@
+{
+  "r2_n": 190,
+  "r3_n": 182,
+  "r2_median_co2_pct": 24.129401067890313,
+  "r2_median_gdp_pct": 36.91848652936592,
+  "r3_increase_renewable_decrease_intensity": 56,
+  "r3_income_median_intensity": {
+    "Lower": 17.80000000000001,
+    "Middle": -8.396,
+    "Higher": -29.42
+  }
+}

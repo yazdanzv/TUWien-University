@@ -1,0 +1,30 @@
+# Original course material is kept locally.
+/instructions/*
+!/instructions/README.md
+
+# Final exports are local unless explicitly included below.
+/submission/*
+!/submission/.gitkeep
+!/submission/A1_ZandiyeVakili_12642780_Report.pdf
+
+# Protégé/editor backups; the actual ontology is tracked.
+*.bak
+*.backup
+*.autosave
+*.owl.*
+*.swp
+*.swo
+*~
+~$*
+
+# OS and local settings
+.DS_Store
+._*
+.idea/
+.vscode/
+.env
+.env.*
+!.env.example
+
+# Internal report render and validation intermediates
+/tmp/

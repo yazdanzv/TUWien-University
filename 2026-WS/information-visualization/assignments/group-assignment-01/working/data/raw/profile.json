@@ -1,0 +1,1061 @@
+{
+  "evaluation_date": "2026-11-07",
+  "row_definition": "OWID rows with territorial CO2 observed, 1960-2024, and ISO code in WDI non-aggregate economy metadata",
+  "periods": {
+    "1960-2024": {
+      "rows": 12896,
+      "economies": 204,
+      "coverage": {
+        "owid:co2": {
+          "non_null": 12896,
+          "coverage_pct": 100.0,
+          "first": 1960,
+          "last": 2024
+        },
+        "owid:co2_per_capita": {
+          "non_null": 12896,
+          "coverage_pct": 100.0,
+          "first": 1960,
+          "last": 2024
+        },
+        "owid:coal_co2": {
+          "non_null": 8877,
+          "coverage_pct": 68.84,
+          "first": 1960,
+          "last": 2024
+        },
+        "owid:oil_co2": {
+          "non_null": 12852,
+          "coverage_pct": 99.66,
+          "first": 1960,
+          "last": 2024
+        },
+        "owid:gas_co2": {
+          "non_null": 7011,
+          "coverage_pct": 54.37,
+          "first": 1960,
+          "last": 2024
+        },
+        "owid:cement_co2": {
+          "non_null": 12550,
+          "coverage_pct": 97.32,
+          "first": 1960,
+          "last": 2024
+        },
+        "owid:consumption_co2": {
+          "non_null": 4029,
+          "coverage_pct": 31.24,
+          "first": 1990,
+          "last": 2023
+        },
+        "owid:consumption_co2_per_capita": {
+          "non_null": 4029,
+          "coverage_pct": 31.24,
+          "first": 1990,
+          "last": 2023
+        },
+        "owid:trade_co2": {
+          "non_null": 4029,
+          "coverage_pct": 31.24,
+          "first": 1990,
+          "last": 2023
+        },
+        "owid:trade_co2_share": {
+          "non_null": 4029,
+          "coverage_pct": 31.24,
+          "first": 1990,
+          "last": 2023
+        },
+        "owid:primary_energy_consumption": {
+          "non_null": 9536,
+          "coverage_pct": 73.95,
+          "first": 1965,
+          "last": 2024
+        },
+        "owid:energy_per_capita": {
+          "non_null": 9536,
+          "coverage_pct": 73.95,
+          "first": 1965,
+          "last": 2024
+        },
+        "owid:co2_per_unit_energy": {
+          "non_null": 9482,
+          "coverage_pct": 73.53,
+          "first": 1965,
+          "last": 2024
+        },
+        "owid:population": {
+          "non_null": 12896,
+          "coverage_pct": 100.0,
+          "first": 1960,
+          "last": 2024
+        },
+        "owid:gdp": {
+          "non_null": 9824,
+          "coverage_pct": 76.18,
+          "first": 1960,
+          "last": 2022
+        },
+        "owid:total_ghg": {
+          "non_null": 12373,
+          "coverage_pct": 95.94,
+          "first": 1960,
+          "last": 2024
+        },
+        "owid:total_ghg_excluding_lucf": {
+          "non_null": 12258,
+          "coverage_pct": 95.05,
+          "first": 1960,
+          "last": 2024
+        },
+        "owid:co2_including_luc": {
+          "non_null": 12148,
+          "coverage_pct": 94.2,
+          "first": 1960,
+          "last": 2024
+        },
+        "wdi:SP.POP.TOTL": {
+          "non_null": 12896,
+          "coverage_pct": 100.0,
+          "first": 1960,
+          "last": 2024
+        },
+        "wdi:NY.GDP.MKTP.KD": {
+          "non_null": 10874,
+          "coverage_pct": 84.32,
+          "first": 1960,
+          "last": 2024
+        },
+        "wdi:NY.GDP.PCAP.KD": {
+          "non_null": 10874,
+          "coverage_pct": 84.32,
+          "first": 1960,
+          "last": 2024
+        },
+        "wdi:NY.GDP.MKTP.PP.KD": {
+          "non_null": 6664,
+          "coverage_pct": 51.67,
+          "first": 1990,
+          "last": 2024
+        },
+        "wdi:NY.GDP.PCAP.PP.KD": {
+          "non_null": 6664,
+          "coverage_pct": 51.67,
+          "first": 1990,
+          "last": 2024
+        },
+        "wdi:SP.URB.TOTL.IN.ZS": {
+          "non_null": 12896,
+          "coverage_pct": 100.0,
+          "first": 1960,
+          "last": 2024
+        },
+        "wdi:NV.IND.TOTL.ZS": {
+          "non_null": 8699,
+          "coverage_pct": 67.46,
+          "first": 1960,
+          "last": 2024
+        },
+        "wdi:NV.IND.MANF.ZS": {
+          "non_null": 7943,
+          "coverage_pct": 61.59,
+          "first": 1960,
+          "last": 2024
+        },
+        "wdi:NE.TRD.GNFS.ZS": {
+          "non_null": 8675,
+          "coverage_pct": 67.27,
+          "first": 1960,
+          "last": 2024
+        },
+        "wdi:EG.FEC.RNEW.ZS": {
+          "non_null": 6495,
+          "coverage_pct": 50.36,
+          "first": 1990,
+          "last": 2022
+        },
+        "wdi:EG.ELC.ACCS.ZS": {
+          "non_null": 6352,
+          "coverage_pct": 49.26,
+          "first": 1990,
+          "last": 2024
+        },
+        "wdi:EG.USE.PCAP.KG.OE": {
+          "non_null": 5251,
+          "coverage_pct": 40.72,
+          "first": 1990,
+          "last": 2024
+        },
+        "wdi:EG.USE.COMM.FO.ZS": {
+          "non_null": 5043,
+          "coverage_pct": 39.11,
+          "first": 1990,
+          "last": 2024
+        },
+        "wdi:SP.DYN.LE00.IN": {
+          "non_null": 12892,
+          "coverage_pct": 99.97,
+          "first": 1960,
+          "last": 2024
+        }
+      },
+      "co2_population_gdp_rows": 10874,
+      "core_complete_rows": 7502,
+      "modern_complete_rows": 3372
+    },
+    "1970-2024": {
+      "rows": 11004,
+      "economies": 204,
+      "coverage": {
+        "owid:co2": {
+          "non_null": 11004,
+          "coverage_pct": 100.0,
+          "first": 1970,
+          "last": 2024
+        },
+        "owid:co2_per_capita": {
+          "non_null": 11004,
+          "coverage_pct": 100.0,
+          "first": 1970,
+          "last": 2024
+        },
+        "owid:coal_co2": {
+          "non_null": 7565,
+          "coverage_pct": 68.75,
+          "first": 1970,
+          "last": 2024
+        },
+        "owid:oil_co2": {
+          "non_null": 10968,
+          "coverage_pct": 99.67,
+          "first": 1970,
+          "last": 2024
+        },
+        "owid:gas_co2": {
+          "non_null": 6149,
+          "coverage_pct": 55.88,
+          "first": 1970,
+          "last": 2024
+        },
+        "owid:cement_co2": {
+          "non_null": 10708,
+          "coverage_pct": 97.31,
+          "first": 1970,
+          "last": 2024
+        },
+        "owid:consumption_co2": {
+          "non_null": 4029,
+          "coverage_pct": 36.61,
+          "first": 1990,
+          "last": 2023
+        },
+        "owid:consumption_co2_per_capita": {
+          "non_null": 4029,
+          "coverage_pct": 36.61,
+          "first": 1990,
+          "last": 2023
+        },
+        "owid:trade_co2": {
+          "non_null": 4029,
+          "coverage_pct": 36.61,
+          "first": 1990,
+          "last": 2023
+        },
+        "owid:trade_co2_share": {
+          "non_null": 4029,
+          "coverage_pct": 36.61,
+          "first": 1990,
+          "last": 2023
+        },
+        "owid:primary_energy_consumption": {
+          "non_null": 9211,
+          "coverage_pct": 83.71,
+          "first": 1970,
+          "last": 2024
+        },
+        "owid:energy_per_capita": {
+          "non_null": 9211,
+          "coverage_pct": 83.71,
+          "first": 1970,
+          "last": 2024
+        },
+        "owid:co2_per_unit_energy": {
+          "non_null": 9162,
+          "coverage_pct": 83.26,
+          "first": 1970,
+          "last": 2024
+        },
+        "owid:population": {
+          "non_null": 11004,
+          "coverage_pct": 100.0,
+          "first": 1970,
+          "last": 2024
+        },
+        "owid:gdp": {
+          "non_null": 8413,
+          "coverage_pct": 76.45,
+          "first": 1970,
+          "last": 2022
+        },
+        "owid:total_ghg": {
+          "non_null": 10551,
+          "coverage_pct": 95.88,
+          "first": 1970,
+          "last": 2024
+        },
+        "owid:total_ghg_excluding_lucf": {
+          "non_null": 10454,
+          "coverage_pct": 95.0,
+          "first": 1970,
+          "last": 2024
+        },
+        "owid:co2_including_luc": {
+          "non_null": 10364,
+          "coverage_pct": 94.18,
+          "first": 1970,
+          "last": 2024
+        },
+        "wdi:SP.POP.TOTL": {
+          "non_null": 11004,
+          "coverage_pct": 100.0,
+          "first": 1970,
+          "last": 2024
+        },
+        "wdi:NY.GDP.MKTP.KD": {
+          "non_null": 9771,
+          "coverage_pct": 88.79,
+          "first": 1970,
+          "last": 2024
+        },
+        "wdi:NY.GDP.PCAP.KD": {
+          "non_null": 9771,
+          "coverage_pct": 88.79,
+          "first": 1970,
+          "last": 2024
+        },
+        "wdi:NY.GDP.MKTP.PP.KD": {
+          "non_null": 6664,
+          "coverage_pct": 60.56,
+          "first": 1990,
+          "last": 2024
+        },
+        "wdi:NY.GDP.PCAP.PP.KD": {
+          "non_null": 6664,
+          "coverage_pct": 60.56,
+          "first": 1990,
+          "last": 2024
+        },
+        "wdi:SP.URB.TOTL.IN.ZS": {
+          "non_null": 11004,
+          "coverage_pct": 100.0,
+          "first": 1970,
+          "last": 2024
+        },
+        "wdi:NV.IND.TOTL.ZS": {
+          "non_null": 8190,
+          "coverage_pct": 74.43,
+          "first": 1970,
+          "last": 2024
+        },
+        "wdi:NV.IND.MANF.ZS": {
+          "non_null": 7561,
+          "coverage_pct": 68.71,
+          "first": 1970,
+          "last": 2024
+        },
+        "wdi:NE.TRD.GNFS.ZS": {
+          "non_null": 8027,
+          "coverage_pct": 72.95,
+          "first": 1970,
+          "last": 2024
+        },
+        "wdi:EG.FEC.RNEW.ZS": {
+          "non_null": 6495,
+          "coverage_pct": 59.02,
+          "first": 1990,
+          "last": 2022
+        },
+        "wdi:EG.ELC.ACCS.ZS": {
+          "non_null": 6352,
+          "coverage_pct": 57.72,
+          "first": 1990,
+          "last": 2024
+        },
+        "wdi:EG.USE.PCAP.KG.OE": {
+          "non_null": 5251,
+          "coverage_pct": 47.72,
+          "first": 1990,
+          "last": 2024
+        },
+        "wdi:EG.USE.COMM.FO.ZS": {
+          "non_null": 5043,
+          "coverage_pct": 45.83,
+          "first": 1990,
+          "last": 2024
+        },
+        "wdi:SP.DYN.LE00.IN": {
+          "non_null": 11004,
+          "coverage_pct": 100.0,
+          "first": 1970,
+          "last": 2024
+        }
+      },
+      "co2_population_gdp_rows": 9771,
+      "core_complete_rows": 7066,
+      "modern_complete_rows": 3372
+    },
+    "1990-2023": {
+      "rows": 6923,
+      "economies": 204,
+      "coverage": {
+        "owid:co2": {
+          "non_null": 6923,
+          "coverage_pct": 100.0,
+          "first": 1990,
+          "last": 2023
+        },
+        "owid:co2_per_capita": {
+          "non_null": 6923,
+          "coverage_pct": 100.0,
+          "first": 1990,
+          "last": 2023
+        },
+        "owid:coal_co2": {
+          "non_null": 4559,
+          "coverage_pct": 65.85,
+          "first": 1990,
+          "last": 2023
+        },
+        "owid:oil_co2": {
+          "non_null": 6915,
+          "coverage_pct": 99.88,
+          "first": 1990,
+          "last": 2023
+        },
+        "owid:gas_co2": {
+          "non_null": 4073,
+          "coverage_pct": 58.83,
+          "first": 1990,
+          "last": 2023
+        },
+        "owid:cement_co2": {
+          "non_null": 6722,
+          "coverage_pct": 97.1,
+          "first": 1990,
+          "last": 2023
+        },
+        "owid:consumption_co2": {
+          "non_null": 4029,
+          "coverage_pct": 58.2,
+          "first": 1990,
+          "last": 2023
+        },
+        "owid:consumption_co2_per_capita": {
+          "non_null": 4029,
+          "coverage_pct": 58.2,
+          "first": 1990,
+          "last": 2023
+        },
+        "owid:trade_co2": {
+          "non_null": 4029,
+          "coverage_pct": 58.2,
+          "first": 1990,
+          "last": 2023
+        },
+        "owid:trade_co2_share": {
+          "non_null": 4029,
+          "coverage_pct": 58.2,
+          "first": 1990,
+          "last": 2023
+        },
+        "owid:primary_energy_consumption": {
+          "non_null": 6639,
+          "coverage_pct": 95.9,
+          "first": 1990,
+          "last": 2023
+        },
+        "owid:energy_per_capita": {
+          "non_null": 6639,
+          "coverage_pct": 95.9,
+          "first": 1990,
+          "last": 2023
+        },
+        "owid:co2_per_unit_energy": {
+          "non_null": 6592,
+          "coverage_pct": 95.22,
+          "first": 1990,
+          "last": 2023
+        },
+        "owid:population": {
+          "non_null": 6923,
+          "coverage_pct": 100.0,
+          "first": 1990,
+          "last": 2023
+        },
+        "owid:gdp": {
+          "non_null": 5376,
+          "coverage_pct": 77.65,
+          "first": 1990,
+          "last": 2022
+        },
+        "owid:total_ghg": {
+          "non_null": 6619,
+          "coverage_pct": 95.61,
+          "first": 1990,
+          "last": 2023
+        },
+        "owid:total_ghg_excluding_lucf": {
+          "non_null": 6563,
+          "coverage_pct": 94.8,
+          "first": 1990,
+          "last": 2023
+        },
+        "owid:co2_including_luc": {
+          "non_null": 6515,
+          "coverage_pct": 94.11,
+          "first": 1990,
+          "last": 2023
+        },
+        "wdi:SP.POP.TOTL": {
+          "non_null": 6923,
+          "coverage_pct": 100.0,
+          "first": 1990,
+          "last": 2023
+        },
+        "wdi:NY.GDP.MKTP.KD": {
+          "non_null": 6632,
+          "coverage_pct": 95.8,
+          "first": 1990,
+          "last": 2023
+        },
+        "wdi:NY.GDP.PCAP.KD": {
+          "non_null": 6632,
+          "coverage_pct": 95.8,
+          "first": 1990,
+          "last": 2023
+        },
+        "wdi:NY.GDP.MKTP.PP.KD": {
+          "non_null": 6472,
+          "coverage_pct": 93.49,
+          "first": 1990,
+          "last": 2023
+        },
+        "wdi:NY.GDP.PCAP.PP.KD": {
+          "non_null": 6472,
+          "coverage_pct": 93.49,
+          "first": 1990,
+          "last": 2023
+        },
+        "wdi:SP.URB.TOTL.IN.ZS": {
+          "non_null": 6923,
+          "coverage_pct": 100.0,
+          "first": 1990,
+          "last": 2023
+        },
+        "wdi:NV.IND.TOTL.ZS": {
+          "non_null": 6124,
+          "coverage_pct": 88.46,
+          "first": 1990,
+          "last": 2023
+        },
+        "wdi:NV.IND.MANF.ZS": {
+          "non_null": 5770,
+          "coverage_pct": 83.35,
+          "first": 1990,
+          "last": 2023
+        },
+        "wdi:NE.TRD.GNFS.ZS": {
+          "non_null": 5674,
+          "coverage_pct": 81.96,
+          "first": 1990,
+          "last": 2023
+        },
+        "wdi:EG.FEC.RNEW.ZS": {
+          "non_null": 6495,
+          "coverage_pct": 93.82,
+          "first": 1990,
+          "last": 2022
+        },
+        "wdi:EG.ELC.ACCS.ZS": {
+          "non_null": 6148,
+          "coverage_pct": 88.81,
+          "first": 1990,
+          "last": 2023
+        },
+        "wdi:EG.USE.PCAP.KG.OE": {
+          "non_null": 5103,
+          "coverage_pct": 73.71,
+          "first": 1990,
+          "last": 2023
+        },
+        "wdi:EG.USE.COMM.FO.ZS": {
+          "non_null": 4895,
+          "coverage_pct": 70.71,
+          "first": 1990,
+          "last": 2023
+        },
+        "wdi:SP.DYN.LE00.IN": {
+          "non_null": 6923,
+          "coverage_pct": 100.0,
+          "first": 1990,
+          "last": 2023
+        }
+      },
+      "co2_population_gdp_rows": 6632,
+      "core_complete_rows": 5326,
+      "modern_complete_rows": 3372
+    },
+    "2000-2023": {
+      "rows": 4896,
+      "economies": 204,
+      "coverage": {
+        "owid:co2": {
+          "non_null": 4896,
+          "coverage_pct": 100.0,
+          "first": 2000,
+          "last": 2023
+        },
+        "owid:co2_per_capita": {
+          "non_null": 4896,
+          "coverage_pct": 100.0,
+          "first": 2000,
+          "last": 2023
+        },
+        "owid:coal_co2": {
+          "non_null": 3249,
+          "coverage_pct": 66.36,
+          "first": 2000,
+          "last": 2023
+        },
+        "owid:oil_co2": {
+          "non_null": 4894,
+          "coverage_pct": 99.96,
+          "first": 2000,
+          "last": 2023
+        },
+        "owid:gas_co2": {
+          "non_null": 2967,
+          "coverage_pct": 60.6,
+          "first": 2000,
+          "last": 2023
+        },
+        "owid:cement_co2": {
+          "non_null": 4777,
+          "coverage_pct": 97.57,
+          "first": 2000,
+          "last": 2023
+        },
+        "owid:consumption_co2": {
+          "non_null": 2850,
+          "coverage_pct": 58.21,
+          "first": 2000,
+          "last": 2023
+        },
+        "owid:consumption_co2_per_capita": {
+          "non_null": 2850,
+          "coverage_pct": 58.21,
+          "first": 2000,
+          "last": 2023
+        },
+        "owid:trade_co2": {
+          "non_null": 2850,
+          "coverage_pct": 58.21,
+          "first": 2000,
+          "last": 2023
+        },
+        "owid:trade_co2_share": {
+          "non_null": 2850,
+          "coverage_pct": 58.21,
+          "first": 2000,
+          "last": 2023
+        },
+        "owid:primary_energy_consumption": {
+          "non_null": 4725,
+          "coverage_pct": 96.51,
+          "first": 2000,
+          "last": 2023
+        },
+        "owid:energy_per_capita": {
+          "non_null": 4725,
+          "coverage_pct": 96.51,
+          "first": 2000,
+          "last": 2023
+        },
+        "owid:co2_per_unit_energy": {
+          "non_null": 4701,
+          "coverage_pct": 96.02,
+          "first": 2000,
+          "last": 2023
+        },
+        "owid:population": {
+          "non_null": 4896,
+          "coverage_pct": 100.0,
+          "first": 2000,
+          "last": 2023
+        },
+        "owid:gdp": {
+          "non_null": 3749,
+          "coverage_pct": 76.57,
+          "first": 2000,
+          "last": 2022
+        },
+        "owid:total_ghg": {
+          "non_null": 4680,
+          "coverage_pct": 95.59,
+          "first": 2000,
+          "last": 2023
+        },
+        "owid:total_ghg_excluding_lucf": {
+          "non_null": 4644,
+          "coverage_pct": 94.85,
+          "first": 2000,
+          "last": 2023
+        },
+        "owid:co2_including_luc": {
+          "non_null": 4608,
+          "coverage_pct": 94.12,
+          "first": 2000,
+          "last": 2023
+        },
+        "wdi:SP.POP.TOTL": {
+          "non_null": 4896,
+          "coverage_pct": 100.0,
+          "first": 2000,
+          "last": 2023
+        },
+        "wdi:NY.GDP.MKTP.KD": {
+          "non_null": 4731,
+          "coverage_pct": 96.63,
+          "first": 2000,
+          "last": 2023
+        },
+        "wdi:NY.GDP.PCAP.KD": {
+          "non_null": 4731,
+          "coverage_pct": 96.63,
+          "first": 2000,
+          "last": 2023
+        },
+        "wdi:NY.GDP.MKTP.PP.KD": {
+          "non_null": 4618,
+          "coverage_pct": 94.32,
+          "first": 2000,
+          "last": 2023
+        },
+        "wdi:NY.GDP.PCAP.PP.KD": {
+          "non_null": 4618,
+          "coverage_pct": 94.32,
+          "first": 2000,
+          "last": 2023
+        },
+        "wdi:SP.URB.TOTL.IN.ZS": {
+          "non_null": 4896,
+          "coverage_pct": 100.0,
+          "first": 2000,
+          "last": 2023
+        },
+        "wdi:NV.IND.TOTL.ZS": {
+          "non_null": 4601,
+          "coverage_pct": 93.97,
+          "first": 2000,
+          "last": 2023
+        },
+        "wdi:NV.IND.MANF.ZS": {
+          "non_null": 4398,
+          "coverage_pct": 89.83,
+          "first": 2000,
+          "last": 2023
+        },
+        "wdi:NE.TRD.GNFS.ZS": {
+          "non_null": 4141,
+          "coverage_pct": 84.58,
+          "first": 2000,
+          "last": 2023
+        },
+        "wdi:EG.FEC.RNEW.ZS": {
+          "non_null": 4521,
+          "coverage_pct": 92.34,
+          "first": 2000,
+          "last": 2022
+        },
+        "wdi:EG.ELC.ACCS.ZS": {
+          "non_null": 4871,
+          "coverage_pct": 99.49,
+          "first": 2000,
+          "last": 2023
+        },
+        "wdi:EG.USE.PCAP.KG.OE": {
+          "non_null": 3647,
+          "coverage_pct": 74.49,
+          "first": 2000,
+          "last": 2023
+        },
+        "wdi:EG.USE.COMM.FO.ZS": {
+          "non_null": 3522,
+          "coverage_pct": 71.94,
+          "first": 2000,
+          "last": 2023
+        },
+        "wdi:SP.DYN.LE00.IN": {
+          "non_null": 4896,
+          "coverage_pct": 100.0,
+          "first": 2000,
+          "last": 2023
+        }
+      },
+      "co2_population_gdp_rows": 4731,
+      "core_complete_rows": 4007,
+      "modern_complete_rows": 2438
+    }
+  },
+  "wdi_metadata": {
+    "SP.POP.TOTL": {
+      "name": "Population, total",
+      "api_metadata": {
+        "page": 1,
+        "pages": 1,
+        "per_page": 20000,
+        "total": 17290,
+        "sourceid": "2",
+        "lastupdated": "2026-10-08"
+      }
+    },
+    "NY.GDP.MKTP.KD": {
+      "name": "GDP (constant 2015 US$)",
+      "api_metadata": {
+        "page": 1,
+        "pages": 1,
+        "per_page": 20000,
+        "total": 17290,
+        "sourceid": "2",
+        "lastupdated": "2026-10-08"
+      }
+    },
+    "NY.GDP.PCAP.KD": {
+      "name": "GDP per capita (constant 2015 US$)",
+      "api_metadata": {
+        "page": 1,
+        "pages": 1,
+        "per_page": 20000,
+        "total": 17290,
+        "sourceid": "2",
+        "lastupdated": "2026-10-08"
+      }
+    },
+    "NY.GDP.MKTP.PP.KD": {
+      "name": "GDP, PPP (constant 2021 international $)",
+      "api_metadata": {
+        "page": 1,
+        "pages": 1,
+        "per_page": 20000,
+        "total": 17290,
+        "sourceid": "2",
+        "lastupdated": "2026-10-08"
+      }
+    },
+    "NY.GDP.PCAP.PP.KD": {
+      "name": "GDP per capita, PPP (constant 2021 international $)",
+      "api_metadata": {
+        "page": 1,
+        "pages": 1,
+        "per_page": 20000,
+        "total": 17290,
+        "sourceid": "2",
+        "lastupdated": "2026-10-08"
+      }
+    },
+    "SP.URB.TOTL.IN.ZS": {
+      "name": "Urban population (% of total population)",
+      "api_metadata": {
+        "page": 1,
+        "pages": 1,
+        "per_page": 20000,
+        "total": 17290,
+        "sourceid": "2",
+        "lastupdated": "2026-10-08"
+      }
+    },
+    "NV.IND.TOTL.ZS": {
+      "name": "Industry (including construction), value added (% of GDP)",
+      "api_metadata": {
+        "page": 1,
+        "pages": 1,
+        "per_page": 20000,
+        "total": 17290,
+        "sourceid": "2",
+        "lastupdated": "2026-10-08"
+      }
+    },
+    "NV.IND.MANF.ZS": {
+      "name": "Manufacturing, value added (% of GDP)",
+      "api_metadata": {
+        "page": 1,
+        "pages": 1,
+        "per_page": 20000,
+        "total": 17290,
+        "sourceid": "2",
+        "lastupdated": "2026-10-08"
+      }
+    },
+    "NE.TRD.GNFS.ZS": {
+      "name": "Trade (% of GDP)",
+      "api_metadata": {
+        "page": 1,
+        "pages": 1,
+        "per_page": 20000,
+        "total": 17290,
+        "sourceid": "2",
+        "lastupdated": "2026-10-08"
+      }
+    },
+    "EG.FEC.RNEW.ZS": {
+      "name": "Renewable energy consumption (% of total final energy consumption)",
+      "api_metadata": {
+        "page": 1,
+        "pages": 1,
+        "per_page": 20000,
+        "total": 17290,
+        "sourceid": "2",
+        "lastupdated": "2026-10-08"
+      }
+    },
+    "EG.ELC.ACCS.ZS": {
+      "name": "Access to electricity (% of population)",
+      "api_metadata": {
+        "page": 1,
+        "pages": 1,
+        "per_page": 20000,
+        "total": 17290,
+        "sourceid": "2",
+        "lastupdated": "2026-10-08"
+      }
+    },
+    "EG.USE.PCAP.KG.OE": {
+      "name": "Energy use (kg of oil equivalent per capita)",
+      "api_metadata": {
+        "page": 1,
+        "pages": 1,
+        "per_page": 20000,
+        "total": 17290,
+        "sourceid": "2",
+        "lastupdated": "2026-10-08"
+      }
+    },
+    "EG.USE.COMM.FO.ZS": {
+      "name": "Fossil fuel energy consumption (% of total)",
+      "api_metadata": {
+        "page": 1,
+        "pages": 1,
+        "per_page": 20000,
+        "total": 17290,
+        "sourceid": "2",
+        "lastupdated": "2026-10-08"
+      }
+    },
+    "SP.DYN.LE00.IN": {
+      "name": "Life expectancy at birth, total (years)",
+      "api_metadata": {
+        "page": 1,
+        "pages": 1,
+        "per_page": 20000,
+        "total": 17290,
+        "sourceid": "2",
+        "lastupdated": "2026-10-08"
+      }
+    }
+  },
+  "owid_non_aggregate_codes_not_matched": [
+    "AIA",
+    "ATA",
+    "BES",
+    "COK",
+    "CXR",
+    "MSR",
+    "NIU",
+    "SHN",
+    "SPM",
+    "TWN",
+    "VAT",
+    "WLF"
+  ],
+  "wdi_economies_without_backbone_rows": [
+    "ASM",
+    "CHI",
+    "CYM",
+    "GIB",
+    "GUM",
+    "IMN",
+    "MAF",
+    "MCO",
+    "MNP",
+    "PRI",
+    "SMR",
+    "VIR",
+    "XKX"
+  ],
+  "manifest": {
+    "countries.json": {
+      "url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+      "sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+    },
+    "owid-co2-data.csv": {
+      "url": "https://raw.githubusercontent.com/owid/co2-data/master/owid-co2-data.csv",
+      "sha256": "7f78e2b218ce4bb8c538bbec04fdc9a7982e8d40bff972e650df603899edd5f6"
+    },
+    "SP.POP.TOTL.json": {
+      "url": "https://api.worldbank.org/v2/country/all/indicator/SP.POP.TOTL?source=2&date=1960:2024&format=json&per_page=20000",
+      "sha256": "275d4328f901e2da43f8f45401d4299ed525fdccf7efc8358554a09218da0133"
+    },
+    "NY.GDP.PCAP.KD.json": {
+      "url": "https://api.worldbank.org/v2/country/all/indicator/NY.GDP.PCAP.KD?source=2&date=1960:2024&format=json&per_page=20000",
+      "sha256": "580be980e1c82b0a15f7462fc5b574ae484bd4828c8188fb4aa64c9dfeeef264"
+    },
+    "NY.GDP.PCAP.PP.KD.json": {
+      "url": "https://api.worldbank.org/v2/country/all/indicator/NY.GDP.PCAP.PP.KD?source=2&date=1960:2024&format=json&per_page=20000",
+      "sha256": "9920e44749a16dcf411c58ba363143e101d10e3101103b46436973d724b527da"
+    },
+    "NY.GDP.MKTP.KD.json": {
+      "url": "https://api.worldbank.org/v2/country/all/indicator/NY.GDP.MKTP.KD?source=2&date=1960:2024&format=json&per_page=20000",
+      "sha256": "cc11b873c0f21ce9dcd89d0e03a858f61594cac7a62ee4f3487ac1040fb6edc2"
+    },
+    "SP.URB.TOTL.IN.ZS.json": {
+      "url": "https://api.worldbank.org/v2/country/all/indicator/SP.URB.TOTL.IN.ZS?source=2&date=1960:2024&format=json&per_page=20000",
+      "sha256": "957e8cbdd9b075c6bdd2f4312272306df0674b2c89ba7f283f50902980306487"
+    },
+    "NY.GDP.MKTP.PP.KD.json": {
+      "url": "https://api.worldbank.org/v2/country/all/indicator/NY.GDP.MKTP.PP.KD?source=2&date=1960:2024&format=json&per_page=20000",
+      "sha256": "65b76a845f4c365bbf8487c2f55e48dfd8eaf80220035d241ee0c2592a7b1ea8"
+    },
+    "NV.IND.TOTL.ZS.json": {
+      "url": "https://api.worldbank.org/v2/country/all/indicator/NV.IND.TOTL.ZS?source=2&date=1960:2024&format=json&per_page=20000",
+      "sha256": "daae8b32c3a09a732fb4420690f279b043151f220371eef1e59a7af7ec053529"
+    },
+    "NV.IND.MANF.ZS.json": {
+      "url": "https://api.worldbank.org/v2/country/all/indicator/NV.IND.MANF.ZS?source=2&date=1960:2024&format=json&per_page=20000",
+      "sha256": "8ca6b71b1f04984738f9207743e28923d709cb00063ded07f760698b1025c6f2"
+    },
+    "NE.TRD.GNFS.ZS.json": {
+      "url": "https://api.worldbank.org/v2/country/all/indicator/NE.TRD.GNFS.ZS?source=2&date=1960:2024&format=json&per_page=20000",
+      "sha256": "1f424f3cb931e0e00f6e12e7017ad7db667f823b67f83d3103e32acb103ff11c"
+    },
+    "EG.USE.PCAP.KG.OE.json": {
+      "url": "https://api.worldbank.org/v2/country/all/indicator/EG.USE.PCAP.KG.OE?source=2&date=1960:2024&format=json&per_page=20000",
+      "sha256": "101d2a28874c77bfa5be5f4406b16b683bd4bc4c72036020ed166297f4789be1"
+    },
+    "EG.USE.COMM.FO.ZS.json": {
+      "url": "https://api.worldbank.org/v2/country/all/indicator/EG.USE.COMM.FO.ZS?source=2&date=1960:2024&format=json&per_page=20000",
+      "sha256": "e067b9b02360572a59e69d84e42e48334a5bf9561ebbd3f9c5784e1e59337aec"
+    },
+    "EG.ELC.ACCS.ZS.json": {
+      "url": "https://api.worldbank.org/v2/country/all/indicator/EG.ELC.ACCS.ZS?source=2&date=1960:2024&format=json&per_page=20000",
+      "sha256": "d0ff9b0345b11899c4fc4be3d40db88724af272788904209c00f919d356f8f1e"
+    },
+    "EG.FEC.RNEW.ZS.json": {
+      "url": "https://api.worldbank.org/v2/country/all/indicator/EG.FEC.RNEW.ZS?source=2&date=1960:2024&format=json&per_page=20000",
+      "sha256": "77b0c06984eb17ef447d14b9f395ca588608fa21fc3608f039f9e5cf8d7e723e"
+    },
+    "SP.DYN.LE00.IN.json": {
+      "url": "https://api.worldbank.org/v2/country/all/indicator/SP.DYN.LE00.IN?source=2&date=1960:2024&format=json&per_page=20000",
+      "sha256": "cb5ed9405c0c1f4b8930cb9f691497dce9a3123feedc6f850268e492552c7b29"
+    }
+  }
+}
