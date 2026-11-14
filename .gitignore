@@ -90,3 +90,14 @@ checkpoints/
 *.pickle
 *.h5
 *.hdf5
+
+# Course handouts and shared group submissions stay local unless publication
+# rights have been confirmed with the lecturer and contributors.
+**/lectures/
+**/assignments/**/instructions/
+**/assignments/A1/
+**/assignments/**/group-mates/
+**/assignments/**/MachineLearning-2026W-exercise_dataset.pdf
+**/assignments/group-assignment-01/output/
+**/assignments/assignment01/report/
+**/projects/**/docs/proposal/

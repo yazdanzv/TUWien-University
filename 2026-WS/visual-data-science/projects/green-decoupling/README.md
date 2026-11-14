@@ -4,7 +4,8 @@ Information Visualization, Winter Semester 2026/27. Group 16: Yazdan Zandiyevaki
 and Ben Barth.
 
 This repository contains the team's course project. The original team
-proposal is preserved in [Project Plan.pdf](docs/proposal/Project%20Plan.pdf).
+proposal is kept locally and omitted from the public repository pending
+permission from its contributors.
 The first interactive dashboard and reproducible data preparation are implemented.
 Both tabs contain the six agreed charts, linked country selection, year/metric
 controls, accessible data tables, and native CSV/PNG saves. A local macOS preview

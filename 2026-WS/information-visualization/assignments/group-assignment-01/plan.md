@@ -1,5 +1,10 @@
 # Group Assignment 1 — Dataset Selection Plan
 
+The original handout, team members' individual files, preparation scripts, and
+shared report outputs are kept locally and omitted from the public repository
+pending publication permission. Links below to those files describe the local
+working copy.
+
 Evaluation date: 7 November 2026. Team size: **4**.
 
 Status: OWID/WDI data preparation completed on 7 November 2026; the merged CSV is

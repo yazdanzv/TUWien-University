@@ -4,7 +4,7 @@ Yazdan ZandiyeVakili (12642780), Information Visualization VU, TU Wien.
 
 The final submission is `output/report/individual-assignment-02.pdf`; the matching editable file is beside it. It contains RQ2 and RQ3 figures of different chart types. Two further figures and their write-ups are in `working/figures/` and `output/tools/supplementary/`.
 
-The source CSV is `../group-assignment-01/working/data/merged/co2_wdi_merged.csv`. It is read but never changed. The full original assignment brief is kept in `instructions/`.
+The source CSV is `../group-assignment-01/working/data/merged/co2_wdi_merged.csv`. It is read but never changed. The full original assignment brief is kept locally in `instructions/` and omitted from the public repository.
 
 The figure code is also available as `working/notebooks/individual-assignment-02-figures.ipynb`. It contains all four charts, marks the two selected for submission, and regenerates the same PNG files when its cells are run in order. A Markdown copy of the submission text, with links to the selected figures, is in `output/tools/individual-assignment-02.md`.
 

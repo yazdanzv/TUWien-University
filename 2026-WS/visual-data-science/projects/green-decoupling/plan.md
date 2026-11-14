@@ -4,7 +4,8 @@ Last updated: 2026-11-11
 
 This file is the shared record for discussing, deciding, implementing, and
 checking each stage of the Information Visualization project. The original
-[team proposal](docs/proposal/Project%20Plan.pdf) remains unchanged. Its research
+[team proposal](docs/proposal/Project%20Plan.pdf) remains unchanged locally and
+is omitted from the public repository pending contributor permission. Its research
 questions and source choices guide this plan; they are not findings or an
 official course rubric. The original two-source proposal is retained as history;
 D007 supersedes its data integration strategy for the current implementation.

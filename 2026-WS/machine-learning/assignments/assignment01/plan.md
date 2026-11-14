@@ -1,5 +1,8 @@
 # Exercise 0 implementation plan
 
+The original handout and shared group report are kept locally and omitted from
+the public repository pending publication permission.
+
 Updated: 25 October 2026. Notebook explanations and report wording simplified;
 code reduced to loading, summaries, and plotting. All eight figures are retained.
 Checksums, repeated assertions, and date-parsing checks are removed from the notebooks.

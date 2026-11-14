@@ -16,6 +16,15 @@ Course folders contain `lectures/`, `projects/`, `notes/`, and `resources/`, wit
 `2026-WS/visual-data-science/projects/green-decoupling/`.
 Shared report templates, references, and study notes belong in `shared-resources/`.
 
+## Public copy
+
+This public repository contains the student's working files and selected outputs.
+Course lecture slides, assignment handouts, other students' individual work, and
+shared group submissions are kept locally because publication rights have not
+been established. They are excluded from this repository and its Git history.
+Some local workflows therefore require files obtained through the relevant
+course platform or from the project team.
+
 ## Working conventions
 
 - Open `~/University` as the Codex project when working across courses.
