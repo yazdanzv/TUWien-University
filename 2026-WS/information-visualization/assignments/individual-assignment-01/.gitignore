@@ -1,0 +1,28 @@
+# Original course handout stays local.
+/instructions/
+
+# macOS and editor files
+.DS_Store
+._*
+~$*
+*.swp
+*.swo
+
+# Credentials and local environments
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.venv/
+venv/
+node_modules/
+
+# Caches and temporary files
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.cache/
+*.log
+*.tmp
