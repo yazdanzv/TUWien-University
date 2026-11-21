@@ -26,3 +26,7 @@ __pycache__/
 .cache/
 *.log
 *.tmp
+
+# Reproducible render previews and exhaustive exploration output
+/working/report-qa/
+/working/data/derived/round_02_findings.json

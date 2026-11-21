@@ -1,0 +1,351 @@
+{
+  "status": "selected moving-benchmark direction; figures prepared for report layout",
+  "shared_question": "How differently do national rates and EU-relative measures portray the change in Austria\u2019s housing cost overburden for the lowest-income fifth between 2015 and 2025?",
+  "scope": {
+    "geo": [
+      "AT",
+      "EU27_2020"
+    ],
+    "quant_inc": "QU1",
+    "years": [
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "freq": "A",
+    "unit": "PC"
+  },
+  "source_retrieved_at_utc": "2026-11-21T18:30:16.767717+00:00",
+  "source_updated": "2026-10-29T23:00:00+0100",
+  "source_doi": "https://doi.org/10.2908/ILC_LVHO07B",
+  "source_url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/ilc_lvho07b?lang=en",
+  "source_sha256": "954312cf67eb237d778b0f30e3245f53c4c5ea1ad222a896a3516cb00f25ac6f",
+  "records": [
+    {
+      "freq": "A",
+      "unit": "PC",
+      "quant_inc": "QU1",
+      "geo": "EU27_2020",
+      "time": "2015",
+      "value": 36.2,
+      "status": ""
+    },
+    {
+      "freq": "A",
+      "unit": "PC",
+      "quant_inc": "QU1",
+      "geo": "EU27_2020",
+      "time": "2016",
+      "value": 35.5,
+      "status": ""
+    },
+    {
+      "freq": "A",
+      "unit": "PC",
+      "quant_inc": "QU1",
+      "geo": "EU27_2020",
+      "time": "2017",
+      "value": 34.0,
+      "status": ""
+    },
+    {
+      "freq": "A",
+      "unit": "PC",
+      "quant_inc": "QU1",
+      "geo": "EU27_2020",
+      "time": "2018",
+      "value": 32.7,
+      "status": ""
+    },
+    {
+      "freq": "A",
+      "unit": "PC",
+      "quant_inc": "QU1",
+      "geo": "EU27_2020",
+      "time": "2019",
+      "value": 31.7,
+      "status": ""
+    },
+    {
+      "freq": "A",
+      "unit": "PC",
+      "quant_inc": "QU1",
+      "geo": "EU27_2020",
+      "time": "2020",
+      "value": 28.1,
+      "status": ""
+    },
+    {
+      "freq": "A",
+      "unit": "PC",
+      "quant_inc": "QU1",
+      "geo": "EU27_2020",
+      "time": "2021",
+      "value": 31.0,
+      "status": ""
+    },
+    {
+      "freq": "A",
+      "unit": "PC",
+      "quant_inc": "QU1",
+      "geo": "EU27_2020",
+      "time": "2022",
+      "value": 29.7,
+      "status": ""
+    },
+    {
+      "freq": "A",
+      "unit": "PC",
+      "quant_inc": "QU1",
+      "geo": "EU27_2020",
+      "time": "2023",
+      "value": 29.7,
+      "status": ""
+    },
+    {
+      "freq": "A",
+      "unit": "PC",
+      "quant_inc": "QU1",
+      "geo": "EU27_2020",
+      "time": "2024",
+      "value": 27.8,
+      "status": ""
+    },
+    {
+      "freq": "A",
+      "unit": "PC",
+      "quant_inc": "QU1",
+      "geo": "EU27_2020",
+      "time": "2025",
+      "value": 25.8,
+      "status": ""
+    },
+    {
+      "freq": "A",
+      "unit": "PC",
+      "quant_inc": "QU1",
+      "geo": "AT",
+      "time": "2015",
+      "value": 26.7,
+      "status": ""
+    },
+    {
+      "freq": "A",
+      "unit": "PC",
+      "quant_inc": "QU1",
+      "geo": "AT",
+      "time": "2016",
+      "value": 29.5,
+      "status": ""
+    },
+    {
+      "freq": "A",
+      "unit": "PC",
+      "quant_inc": "QU1",
+      "geo": "AT",
+      "time": "2017",
+      "value": 30.9,
+      "status": ""
+    },
+    {
+      "freq": "A",
+      "unit": "PC",
+      "quant_inc": "QU1",
+      "geo": "AT",
+      "time": "2018",
+      "value": 28.4,
+      "status": ""
+    },
+    {
+      "freq": "A",
+      "unit": "PC",
+      "quant_inc": "QU1",
+      "geo": "AT",
+      "time": "2019",
+      "value": 29.8,
+      "status": ""
+    },
+    {
+      "freq": "A",
+      "unit": "PC",
+      "quant_inc": "QU1",
+      "geo": "AT",
+      "time": "2020",
+      "value": 28.2,
+      "status": ""
+    },
+    {
+      "freq": "A",
+      "unit": "PC",
+      "quant_inc": "QU1",
+      "geo": "AT",
+      "time": "2021",
+      "value": 24.8,
+      "status": ""
+    },
+    {
+      "freq": "A",
+      "unit": "PC",
+      "quant_inc": "QU1",
+      "geo": "AT",
+      "time": "2022",
+      "value": 32.3,
+      "status": ""
+    },
+    {
+      "freq": "A",
+      "unit": "PC",
+      "quant_inc": "QU1",
+      "geo": "AT",
+      "time": "2023",
+      "value": 26.5,
+      "status": ""
+    },
+    {
+      "freq": "A",
+      "unit": "PC",
+      "quant_inc": "QU1",
+      "geo": "AT",
+      "time": "2024",
+      "value": 27.6,
+      "status": ""
+    },
+    {
+      "freq": "A",
+      "unit": "PC",
+      "quant_inc": "QU1",
+      "geo": "AT",
+      "time": "2025",
+      "value": 27.2,
+      "status": ""
+    }
+  ],
+  "annual_values": [
+    {
+      "year": 2015,
+      "austria_rate": 26.7,
+      "eu_rate": 36.2,
+      "austria_eu_ratio": 0.7375690607734806,
+      "relative_index": 100.0,
+      "gap_pp": -9.500000000000004
+    },
+    {
+      "year": 2016,
+      "austria_rate": 29.5,
+      "eu_rate": 35.5,
+      "austria_eu_ratio": 0.8309859154929577,
+      "relative_index": 112.66550614548717,
+      "gap_pp": -6.0
+    },
+    {
+      "year": 2017,
+      "austria_rate": 30.9,
+      "eu_rate": 34.0,
+      "austria_eu_ratio": 0.9088235294117647,
+      "relative_index": 123.21877065432915,
+      "gap_pp": -3.1000000000000014
+    },
+    {
+      "year": 2018,
+      "austria_rate": 28.4,
+      "eu_rate": 32.7,
+      "austria_eu_ratio": 0.8685015290519876,
+      "relative_index": 117.75189270292867,
+      "gap_pp": -4.300000000000004
+    },
+    {
+      "year": 2019,
+      "austria_rate": 29.8,
+      "eu_rate": 31.7,
+      "austria_eu_ratio": 0.9400630914826499,
+      "relative_index": 127.45424686019449,
+      "gap_pp": -1.8999999999999986
+    },
+    {
+      "year": 2020,
+      "austria_rate": 28.2,
+      "eu_rate": 28.1,
+      "austria_eu_ratio": 1.0035587188612098,
+      "relative_index": 136.06301731376703,
+      "gap_pp": 0.09999999999999787
+    },
+    {
+      "year": 2021,
+      "austria_rate": 24.8,
+      "eu_rate": 31.0,
+      "austria_eu_ratio": 0.8,
+      "relative_index": 108.46441947565543,
+      "gap_pp": -6.199999999999999
+    },
+    {
+      "year": 2022,
+      "austria_rate": 32.3,
+      "eu_rate": 29.7,
+      "austria_eu_ratio": 1.0875420875420874,
+      "relative_index": 147.44952647574368,
+      "gap_pp": 2.599999999999998
+    },
+    {
+      "year": 2023,
+      "austria_rate": 26.5,
+      "eu_rate": 29.7,
+      "austria_eu_ratio": 0.8922558922558923,
+      "relative_index": 120.97252172158541,
+      "gap_pp": -3.1999999999999993
+    },
+    {
+      "year": 2024,
+      "austria_rate": 27.6,
+      "eu_rate": 27.8,
+      "austria_eu_ratio": 0.9928057553956835,
+      "relative_index": 134.60512488885297,
+      "gap_pp": -0.1999999999999993
+    },
+    {
+      "year": 2025,
+      "austria_rate": 27.2,
+      "eu_rate": 25.8,
+      "austria_eu_ratio": 1.0542635658914727,
+      "relative_index": 142.93760706094125,
+      "gap_pp": 1.3999999999999986
+    }
+  ],
+  "summary": {
+    "austria_change_pp": 0.5,
+    "austria_relative_change_percent": 1.8726591760299671,
+    "eu_change_pp": -10.400000000000002,
+    "eu_relative_change_percent": -28.729281767955804,
+    "relative_index_change_percent": 42.93760706094125,
+    "gap_change_pp": 10.900000000000002
+  },
+  "formulas": {
+    "ratio": "AT_t / EU_t",
+    "index": "100 * ratio_t / ratio_2015",
+    "gap_decomposition": "delta(AT - EU) = delta AT - delta EU",
+    "ratio_change_factor": "(AT_2025 / AT_2015) / (EU_2025 / EU_2015)"
+  },
+  "figure_paths": {
+    "white": "working/figures/benchmark-white-hat.png",
+    "black": "working/figures/benchmark-black-hat.png"
+  },
+  "white_hat_task": "Show both published annual rates and decompose the endpoint gap change.",
+  "black_hat_task": "Foreground the indexed ratio, encouraging substitution of relative standing for domestic prevalence.",
+  "report_status": "Four-page Word and PDF report with Conclusion on page 4; see submission/ and plan.md.",
+  "limitations": [
+    "Endpoint decomposition is arithmetic, not causal.",
+    "The additive percentage-point gap decomposition does not decompose the relative ratio change.",
+    "Index 100 denotes the 2015 ratio, not parity with the EU.",
+    "EU aggregate includes Austria; the two series are not independent.",
+    "All annual paths are shown; endpoints do not establish steady change.",
+    "Source has no flags for these 22 observations, but no confidence intervals.",
+    "Constituent-country methodology changes may affect EU comparisons."
+  ]
+}
